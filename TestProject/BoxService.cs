@@ -11,7 +11,7 @@ namespace TestProject
         {
             if (box == null)
             {
-                throw new ArgumentException("Ссылка отныне не указывает на объект");
+                throw new ArgumentException("Ссылка не указывает на объект теперь");
             }     
 
             return box.Lenght * box.Width * box.Height;
